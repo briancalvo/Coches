@@ -3,6 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Main {
 
@@ -29,6 +30,19 @@ public class Main {
         bmwMap.put(bmw.getMatricula(),bmw);
 
         System.out.println("Muestro el BMW: "+bmwMap.get(bmw.getMatricula()));
+
+        Map<String, Coche> cocheMap = new HashMap<>();
+
+        cocheMap.put("3453WRD",jaguar);
+
+        cocheMap.put("7645DRE",bmw);
+
+        cocheMap.put("3234RRD",mercedes);
+
+        System.out.println("Muestro las keys del HashMap: "+cocheMap.keySet());
+
+        System.out.println("Muestro los values del HashMap: "+cocheMap.values());
+
 
 
 
