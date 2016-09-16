@@ -21,7 +21,9 @@ public class Main {
 
         System.out.println("Muestro el Jaguar: "+cocheList.get(0));
 
-        
+        System.out.println("Muestro el Mercedes: "+cocheList.get(1));
+
+
 
 
     }
